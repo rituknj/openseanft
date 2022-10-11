@@ -1,0 +1,10 @@
+.navbar-width{
+    width: 100%;
+}
+.nav-icons{
+    list-style-type: none !important;
+    display: flex !important;
+}
+.nav-icons-1{
+    font-size: 24px;
+}
