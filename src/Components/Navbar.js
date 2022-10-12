@@ -12,16 +12,16 @@ export default function Navbar() {
      <nav className="navbar navbar-expand-lg bg-transparent">
     <div className="container-fluid px-5">
     <img src={Logo} alt='' width={30}/>
-      <a className="navbar-brand" href="#" style={{fontSize:'20px', fontWeight:'700'}}>openSea</a>
+      {/* <a className="navbar-brand" href="#" style={{fontSize:'20px', fontWeight:'700'}}>openSea</a> */}
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
-      <form className="d-flex" role="search">
+      <form className="input-1 d-flex" role="search">
           <input className="form-control me-2 mx-2" type="search" placeholder="Search items, collections and accounts" aria-label="Search"/>
           
         </form>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
           <li className="nav-item">
             <a className="nav-link active" aria-current="page" href="#">Explore</a>
           </li>
